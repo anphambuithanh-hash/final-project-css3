@@ -84,19 +84,18 @@ h1 {
 }
 
 p {
-  line-height: 1.6;
+  border: none;
+  background: transparent;
+  padding: 0;
 }
 
-/* --- Images Styled using Box Model & Transitions --- */
-/* Requirement: Box model (border, padding, border-radius) applied to all images */
+/* Style only actual image elements */
 img {
   border: 4px solid #6F4E37;
   padding: 8px;
   border-radius: 12px;
   background-color: #FFFFFF;
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
-
 /* Requirement: Hover pseudo-class with scale transform */
 img:hover {
   transform: scale(1.05);
